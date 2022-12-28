@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Inter:wght@300&family=Karla&family=Montserrat:wght@300&family=Poppins:wght@200&family=Press+Start+2P&family=Roboto:wght@300&family=Sedgwick+Ave&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+/* HEADER COMPONENT  */
+
+.header {
+  width: 100%;
+}
+
+.header-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo h1 {
+  width: 20em;
+  height: 24px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.header-logo img {
+  width: 31.31px;
+  height: 26.22px;
+}
+
+.header-wrapper p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #ffffff;
+}
+
+/* FORM COMPONENT  */
+
+.form {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.form-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input {
+  margin: 10px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  height: 35px;
+  padding: 7px;
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+}
+
+#input-1 {
+  width: 39.8em;
+}
+
+#input-2 {
+  width: 39.8em;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-button {
+  text-align: center;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-button:hover {
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition-duration: 1s;
+}
+
+/* image  styling*/
+
+.image {
+  width: 100%;
+}
+
+.image-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 800px;
+  height: auto;
+}
+
+.image-wrapper p {
+  position: absolute;
+  color: white;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+
+  font-family: impact, sans-serif;
+  font-size: 3.5em;
+  text-transform: uppercase;
+}
+
+#top-text {
+  top: 40px;
+}
+
+#bottom-text {
+  bottom: 40px;
+}
