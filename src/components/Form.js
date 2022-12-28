@@ -34,11 +34,11 @@ export const Form = () => {
     fetch(api)
       .then((res) => res.json())
       .then((data) => setAllMemeImages(data.data.memes));
-  }, [allMemeImages]);
+  }, []);
 
   React.useEffect(() => {
     inputReference.current.focus();
-  });
+  },[]);
 
   function handleClick(event) {
     event.preventDefault();
